@@ -4,7 +4,7 @@ var contactString =
 var resumeString =
   "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Vishnu Chiluveri Resume</label></div><a href='assets/Vishnu Chiluveri&#39;s Resume.pdf' download='Vishnu_Chiluveri_Resume'><img class='download' src='images/downloadIcon.svg'></a></div>";
 var addressString =
-  "<div class='mapview'><iframe src='https://www.google.com/maps/place/25,+Dwaraka+Nagar+Colony,+Panchayatiraj+Teachers+Colony,+Hastinapuram,+Hyderabad,+Telangana+500070/@17.322489,78.5552507,17.84z/data=!4m6!3m5!1s0x3bcba210a90596a1:0x5cb8047246791f74!8m2!3d17.3218205!4d78.5545175!16s%2Fg%2F11j9hj9_vl?entry=ttu' class='map'></iframe></div><label class='add'><address>B2 'Hyderabad'<br>Hyderabad<br>Vanasthalipuram, Hyderabad, INDIA 509125</address>";
+  "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2123.715571194577!2d78.55525068115723!3d17.32248896298385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba210a90596a1%3A0x5cb8047246791f74!2s25%2C%20Dwaraka%20Nagar%20Colony%2C%20Panchayatiraj%20Teachers%20Colony%2C%20Hastinapuram%2C%20Hyderabad%2C%20Telangana%20500070!5e0!3m2!1sen!2sin!4v1713680562981!5m2!1sen!2sin' class='map'></iframe></div><label class='add'><address>'Plot no 48, Urmila Nagar Colony<br>Kodoli<br>Hastinapuram, Hyderabad, Telangana, INDIA 500070</address>";
 function startFunction() {
   setLastSeen();
   waitAndResponce("intro");
@@ -91,7 +91,7 @@ function waitAndResponce(inputText) {
       break;
     case "skills":
       sendTextMessage(
-        "<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java Script<br>C<br>C++<br>Kotlin<br>Python<br>Type Script<br>CSS<br>HTML</span><br><br>I've experience with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Asus Tuf fx705dt Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE: VSCode</span>"
+        "<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java Script<br>C<br>C++<br>Kotlin<br>Python<br>Type Script<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Asus Tuf fx705dt Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE: VSCode</span>"
       );
       break;
 
