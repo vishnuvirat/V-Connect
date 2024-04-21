@@ -4,7 +4,7 @@ var contactString =
 var resumeString =
   "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Vishnu Chiluveri Resume</label></div><a href='assets/Vishnu Chiluveri&#39;s Resume.pdf' download='Vishnu_Chiluveri_Resume'><img class='download' src='images/downloadIcon.svg'></a></div>";
 var addressString =
-  "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.63833262443757!2d74.19014864534314!3d16.865338763272877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1a7dcf40f5dd7%3A0xd7b69fe1fcfa9877!2zMTbCsDUxJzU1LjQiTiA3NMKwMTEnMjUuMyJF!5e0!3m2!1sen!2sin!4v1645079906766!5m2!1sen!2sin' class='map'></iframe></div><label class='add'><address>B2 'Asara'<br>Kodoli<br>Kolhapur, Maharashtra, INDIA 416114</address>";
+  "<div class='mapview'><iframe src='https://www.google.com/maps/place/25,+Dwaraka+Nagar+Colony,+Panchayatiraj+Teachers+Colony,+Hastinapuram,+Hyderabad,+Telangana+500070/@17.322489,78.5552507,17.84z/data=!4m6!3m5!1s0x3bcba210a90596a1:0x5cb8047246791f74!8m2!3d17.3218205!4d78.5545175!16s%2Fg%2F11j9hj9_vl?entry=ttu' class='map'></iframe></div><label class='add'><address>B2 'Hyderabad'<br>Hyderabad<br>Vanasthalipuram, Hyderabad, INDIA 509125</address>";
 function startFunction() {
   setLastSeen();
   waitAndResponce("intro");
@@ -77,7 +77,7 @@ function waitAndResponce(inputText) {
     case "intro":
       setTimeout(() => {
         sendTextMessage(
-          "Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Vinayak Ramchandra Patil</a>.</span><br><br>I am a Computer Engineering student at <span class='bold'>Ch. Shivaji University 👨🏻‍💻📚</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>"
+          "Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Vishnu Chiluveri</a>.</span><br><br>I am a Computer Engineering student at <span class='bold'>Guru Nanak Institutions Technical Campus 👨🏻‍💻📚</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>"
         );
       }, 2000);
       break;
@@ -91,13 +91,13 @@ function waitAndResponce(inputText) {
       break;
     case "skills":
       sendTextMessage(
-        "<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>PHP<br>Kotlin<br>Dart<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>"
+        "<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java Script<br>C<br>C<br>Kotlin<br>Kotlin<br>ReactJS<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Asus Tuf fx705dt Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE: VSCode</span>"
       );
       break;
 
     case "education":
       sendTextMessage(
-        "I am currently pusuing B.Tech degree in Computer Science Engineering from TKIET Kolhapur<br>Passing Year : 2023<br><br>I have completed my Diploma from Government Polytechnic Karad<br>Passing Year:2020<br>Result:86.06%<br><br>I have completed my Secondary school from local school known as SWV<br>Passing Year:2016"
+        "I am currently pusuing B.Tech degree in Computer Science Engineering from Guru Nanak Institutions<br>Passing Year : 2024<br><br>I have completed my Intermediate from Kottam Manikyamma jr.college<br>Passing Year:2020<br>Result:96.4%<br><br>I have completed my Secondary school from Vishwa Bharathi High School<br>Passing Year:2018"
       );
       break;
 
@@ -109,7 +109,7 @@ function waitAndResponce(inputText) {
       break;
     case "about":
       sendTextMessage(
-        "🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' href='https://instagram.com/vinayak_patil_09/'><span class='bold'>Vinayak Patil</a> with ❤️</span>"
+        "🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' href='https://instagram.com/bad_captain__0_0/'><span class='bold'>Vishnu Chiluveri</a> with ❤️</span>"
       );
       break;
     case "contact":
@@ -117,7 +117,7 @@ function waitAndResponce(inputText) {
       break;
     case "projects":
       sendTextMessage(
-        "You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Vinayak-09'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>"
+        "You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/vishnuvirat'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>"
       );
       break;
     case "new":
