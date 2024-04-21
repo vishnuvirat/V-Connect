@@ -91,7 +91,7 @@ function waitAndResponce(inputText) {
       break;
     case "skills":
       sendTextMessage(
-        "<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java Script<br>C<br>C<br>Kotlin<br>Kotlin<br>ReactJS<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Asus Tuf fx705dt Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE: VSCode</span>"
+        "<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java Script<br>C<br>C++<br>Kotlin<br>Python<br>Type Script<br>CSS<br>HTML</span><br><br>I've experience with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Asus Tuf fx705dt Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE: VSCode</span>"
       );
       break;
 
